@@ -8,7 +8,13 @@ import characters from "./images.json";
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    characters
+    characters,
+    count: 0
+  };
+
+  handleIncrement = () => {
+    // We always use the setState method to update a component's state
+    this.setState({ count: this.state.count + 1 });
   };
 
   // Map over this.state.friends and render a FriendCard component for each friend object
@@ -16,11 +22,12 @@ class App extends Component {
     return (
       <div className="App">
         <NavTab />
-        <JumbotronBox />
+        <JumbotronBox count={this.state.count}/>
         {this.state.characters.map(character => (
           <ImageCards
             image={character.image}
             key={character.id}
+            handleIncrement={this.handleIncrement}
           />
         ))}
       </div>

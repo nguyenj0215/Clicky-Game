@@ -4,7 +4,7 @@ import "./style.css";
 function ImageCards(props) {
     return (
         <div className="card">
-            <img className="cardImage" src={props.image} alt="Card Pic"></img>
+            <img className="cardImage" src={props.image} alt="Card Pic" onClick={props.handleIncrement}></img>
         </div>
     )
 }
