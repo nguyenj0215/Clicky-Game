@@ -2,7 +2,6 @@ import React from 'react';
 import { Jumbotron} from 'reactstrap';
 
 const JumbotronBox = (props) => {
-    console.log(props)
     return (
         <Jumbotron>
             <h1 className="display-3">Clicky Game</h1>
