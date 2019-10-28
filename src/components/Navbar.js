@@ -15,13 +15,13 @@ const NavTab = (props) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <Navbar color="light" light expand="md">
+        <Navbar color="dark" dark expand="md">
             <NavbarBrand href="/">Clicky Game</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink href="https://github.com/nguyenj0215/clicky-game" target="_blank">GitHub</NavLink>
+                        <NavLink href="https://github.com/nguyenj0215/clicky-game" target="_blank" active>GitHub</NavLink>
                     </NavItem>
                 </Nav>
             </Collapse>

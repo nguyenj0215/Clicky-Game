@@ -2,26 +2,63 @@
     {
         "id": 1,
         "chosen": false,
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014"
+        "image": "http://content.sportslogos.net/logos/7/177/thumbs/kwth8f1cfa2sch5xhjjfaof90.gif"
     },
     {
         "id": 2,
         "chosen": false,
-        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+        "image": "http://content.sportslogos.net/logos/7/173/thumbs/299.gif"
     },
     {
         "id": 3,
         "chosen": false,
-        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626"
+        "image": "http://content.sportslogos.net/logos/7/153/thumbs/318.gif"
     },
     {
         "id": 4,
         "chosen": false,
-        "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png"
+        "image": "http://content.sportslogos.net/logos/7/149/thumbs/n0fd1z6xmhigb0eej3323ebwq.gif"
     },
     {
         "id": 5,
         "chosen": false,
-        "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423"
+        "image": "http://content.sportslogos.net/logos/7/174/thumbs/f1wggq2k8ql88fe33jzhw641u.gif"
+    },
+    {
+        "id": 6,
+        "chosen": false,
+        "image": "http://content.sportslogos.net/logos/7/169/thumbs/364.gif"
+    },
+    {
+        "id": 7,
+        "chosen": false,
+        "image": "http://content.sportslogos.net/logos/7/154/thumbs/403.gif"
+    },
+    {
+        "id": 8,
+        "chosen": false,
+        "image": "http://content.sportslogos.net/logos/7/155/thumbs/15578552015.gif"
+    },
+    {
+        "id": 9,
+        "chosen": false,
+        "image": "http://content.sportslogos.net/logos/7/165/thumbs/406.gif"
+    },
+    {
+        "id": 10,
+        "chosen": false,
+        "image": "http://content.sportslogos.net/logos/7/161/thumbs/9ebzja2zfeigaziee8y605aqp.gif"
+    }
+    ,
+    {
+        "id": 11,
+        "chosen": false,
+        "image": "http://content.sportslogos.net/logos/7/170/thumbs/17013982017.gif"
+    }
+    ,
+    {
+        "id": 12,
+        "chosen": false,
+        "image": "http://content.sportslogos.net/logos/7/171/thumbs/dcy03myfhffbki5d7il3.gif"
     }
 ]

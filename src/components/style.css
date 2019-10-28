@@ -8,8 +8,38 @@
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: left;
     float: left;
+    transition: transform 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.1);
   }
   .cardImage {
       height: 100%;
       width: 100%;
+  }
+  .jumbotron {
+    background-color: rgb(138, 233, 233);
+  }
+  .jumbotronTitle {
+    margin-top: -50px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: yellow;
+    font-style: italic;
+    text-shadow: 6px 4px black;
+  }
+  .jumbotronDescription {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  .countDisplay {
+    margin-bottom: -35px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .highDisplay {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 22px;
   }
