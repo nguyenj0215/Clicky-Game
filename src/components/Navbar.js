@@ -16,7 +16,7 @@ const NavTab = (props) => {
 
     return (
         <Navbar color="dark" dark expand="md">  
-            <NavbarBrand href="https://nguyenj0215.github.io/clicky-game/">Clicky Game</NavbarBrand>
+            <NavbarBrand href="/">Clicky Game</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
