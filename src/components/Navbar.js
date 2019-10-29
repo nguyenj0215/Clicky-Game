@@ -15,8 +15,8 @@ const NavTab = (props) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <Navbar color="dark" dark expand="md">
-            <NavbarBrand href="/clicky-game">Clicky Game</NavbarBrand>
+        <Navbar color="dark" dark expand="md">  
+            <NavbarBrand href="https://nguyenj0215.github.io/clicky-game/">Clicky Game</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
