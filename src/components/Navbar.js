@@ -16,7 +16,7 @@ const NavTab = (props) => {
 
     return (
         <Navbar color="dark" dark expand="md">
-            <NavbarBrand href="/">Clicky Game</NavbarBrand>
+            <NavbarBrand href="/clicky-game">Clicky Game</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
