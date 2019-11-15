@@ -2,7 +2,7 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nguyenj0215.github.io/clicky-game",
+  "homepage": "https://nguyenj0215.github.io/Memory-Game",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
