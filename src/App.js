@@ -4,6 +4,7 @@ import NavTab from './components/Navbar';
 import JumbotronBox from './components/Jumbotron';
 import ImageCards from './components/ImageCards';
 import characters from "./images.json";
+import { BrowserRouter as Router} from "react-router-dom";
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
@@ -65,18 +66,20 @@ class App extends Component {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-      <div className="App">
-        <NavTab />
-        <JumbotronBox count={this.state.count} high={this.state.high}/>
-        {this.state.characters.map(character => (
-          <ImageCards
-            image={character.image}
-            key={character.id}
-            id={character.id}
-            handleIncrement={this.handleIncrement}
-          />
-        ))}
-      </div>
+      <Router>
+        <div className="App">
+          <NavTab />
+          <JumbotronBox count={this.state.count} high={this.state.high} />
+          {this.state.characters.map(character => (
+            <ImageCards
+              image={character.image}
+              key={character.id}
+              id={character.id}
+              handleIncrement={this.handleIncrement}
+            />
+          ))}
+        </div>
+      </Router>
     );
   }
 }

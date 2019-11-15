@@ -3,11 +3,11 @@ import {
     Collapse,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
     Nav,
     NavItem,
     NavLink
 } from 'reactstrap';
+import { Link } from "react-router-dom";
 
 const NavTab = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,10 @@ const NavTab = (props) => {
 
     return (
         <Navbar color="dark" dark expand="md">  
-            <NavbarBrand href="/">Clicky Game</NavbarBrand>
+                  <Link className="navbar-brand" to="/">
+        
+        Clicky Game
+      </Link>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
